@@ -15,6 +15,6 @@ void main() {
 
     // The avatar and the three hobby chips are present.
     expect(find.byType(CircleAvatar), findsOneWidget);
-    expect(find.byType(Chip), findsNWidgets(3));
+    expect(find.byType(Chip), findsNWidgets(4));
   });
 }

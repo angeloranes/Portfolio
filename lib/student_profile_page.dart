@@ -11,9 +11,16 @@ const String _studentNumber = '2026-534229';
 const String _yearAndSection = '4th Year - CCE106(3450)';
 const String _email = 'a.ranes.534229@umindanao.edu.ph';
 const String _aboutMe =
-    'I am an IT student who enjoys learning about technology and creating '
-    'applications. My goal is to become a mobile developer.';
-const List<String> _hobbies = ['Coding', 'Reading', 'Badminton'];
+    'Hello! I am a fourth-year IT student who is passionate about building '
+    'clean and user-friendly mobile applications. I enjoy turning ideas into '
+    'working software and continuously learning new technologies. My goal is '
+    'to start my career as a software developer after graduation.';
+const List<String> _hobbies = [
+  'Basketball',
+  'Photography',
+  'Playing Guitar',
+  'Traveling',
+];
 
 /// Builds the student profile interface.
 class StudentProfilePage extends StatelessWidget {
